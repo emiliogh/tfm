@@ -1,0 +1,909 @@
+.clsEtiquetasTable{
+	border-style: none; font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px; 
+	color:#000; 
+	font-weight: bold;
+	text-align: left; 
+	vertical-align: middle;
+	}
+.clsEtiquetasTableUSD{
+	border-style: none; font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#000; 
+	font-weight: bold;
+	width: 120px;
+	text-align: right;
+	padding-right: 15px;
+	vertical-align: middle;
+	}	
+.clsObjetosTable{
+	border-style: none; font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#000; 
+	text-align: center; 
+	vertical-align: middle;
+	}	
+.estilo3{
+	font-family: verdana;
+	font-weight: bold; 
+	text-align: left; 
+	vertical-align: middle;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+	background: rgb(147,206,222); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(147,206,222,1)), color-stop(41%,rgba(117,189,209,1)), color-stop(100%,rgba(73,165,191,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+	/*color: #0B2161;*/
+	color: #fff;
+	padding-left: 5px;
+	height: 20px;
+	border-style: none;
+	font-size:12px;
+	}
+.estiloTR3{
+	font-family: verdana;
+	font-weight: bold; 
+	text-align: left; 
+	vertical-align: middle;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+	background: rgb(147,206,222); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(147,206,222,1)), color-stop(41%,rgba(117,189,209,1)), color-stop(100%,rgba(73,165,191,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+	/*color: #0B2161;*/
+	color: #fff;
+	padding-left: 20px;
+	height: 20px;
+	border-style: none;
+	font-size:12px;
+	}	
+.estilo2{
+	font-family: verdana;
+	font-weight: bold; 
+	text-align: left; 
+	vertical-align: middle;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+	background: rgb(147,206,222); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(147,206,222,1)), color-stop(41%,rgba(117,189,209,1)), color-stop(100%,rgba(73,165,191,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+	/*color: #0B2161;*/
+	color: #fff;
+	height: 20px;
+	border-style: none;
+	font-size:12px;
+	}
+.estiloTI{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTD{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTC{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}	
+.estiloTIP{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTDP{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCP{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCPP{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}	
+.estiloTIA{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #0101DF;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTDA{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #0101DF;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCA{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #0101DF;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}	
+.estiloTIM{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTDM{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCM{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTIC{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #A901DB;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTDC{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #A901DB;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCC{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #A901DB;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTIV{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #B43104;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTDV{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #B43104;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCV{
+	background: #EFF5FB;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #B43104;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}	
+.estiloTI2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTD2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTC2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTIM2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTDM2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCM2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTIV2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTDV2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloTCV2{
+	background: #FFFFFF;
+	font-family: verdana;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #01DF01;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+
+
+.tablaAperturaHead{
+	color: #fff; 
+	height: 18px; 
+	font-weight: bold; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	text-align: center; 
+	vertical-align: middle;
+	}
+.tablaAperturaHeadmin{
+	color: #fff; 
+	height: 18px; 
+	font-weight: bold; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px; 
+	text-align: center; 
+	vertical-align: middle;
+	}
+.tablaAperturaBodymin{
+	background: #fff;
+	color: #000; 
+	height: 18px; 
+	font-weight: bold; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px; 
+	text-align: center; 
+	vertical-align: middle;
+	}
+.tablaAperturaBodymin2{
+	background: #fff;
+	color: #000; 
+	height: 18px; 
+	font-weight: bold; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:10px; 
+	vertical-align: middle;
+	}
+.tablaAperturaFood{
+	color: #fff; 
+	height: 18px; 
+	font-weight: bold; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	text-align: right; 
+	padding-right: 15px;
+	vertical-align: bottom;
+	}
+.bSolicitudes {
+	background:transparent url(../images/icons/solicitudPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bSolicitudes:hover {
+	background:transparent url(../images/icons/solicitudICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}	
+.bConvenios {
+	background:transparent url(../images/icons/convenioPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bConvenios:hover {
+	background:transparent url(../images/icons/convenioICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}
+.bReclamos {
+	background:transparent url(../images/icons/reclamoPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bReclamos:hover {
+	background:transparent url(../images/icons/reclamoICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}
+.bContacto {
+	background:transparent url(../images/icons/contactoPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bContacto:hover {
+	background:transparent url(../images/icons/contactoICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}	
+.bFicha {
+	background:transparent url(../images/icons/fichaPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bFicha:hover {
+	background:transparent url(../images/icons/fichaICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}
+.bServicios {
+	background:transparent url(../images/icons/serviciosPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bServicios:hover {
+	background:transparent url(../images/icons/serviciosICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}
+.bSimuladorConvenios {
+	background:transparent url(../images/icons/simuladorConvenioPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bSimuladorConvenios:hover {
+	background:transparent url(../images/icons/simuladorConvenioICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}
+.bRestablecerClave {
+	background:transparent url(../images/icons/restablecerClavePICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bRestablecerClave:hover {
+	background:transparent url(../images/icons/restablecerClaveICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}		
+.bFacturacion {
+	background:transparent url(../images/icons/facturasPICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	cursor:pointer;
+	}
+.bFacturacion:hover {
+	background:transparent url(../images/icons/facturasICON.png) no-repeat;
+	background-size: 65px 30px;
+	width:65px;
+	height:32px;
+	border:0px;
+	}		
+.bBusqueda {
+	background:transparent url(../images/icons/busquedaICON.png) no-repeat;
+	background-size: 33px 33px;
+	padding-top: 15px;
+	width:30px;
+	height:30px;
+	border:0px;
+	cursor:pointer;
+	}
+.bBusqueda:hover {
+	background:transparent url(../images/icons/busquedaICON.png) no-repeat;
+	background-size: 33px 33px;
+	width:30px;
+	height:30px;
+	}
+	
+.bFacturar {
+	background:transparent url(../images/iconos/facturarPICON.png) no-repeat;
+	background-size: 125px 27px;
+	padding-top: 15px;
+	width:125px;
+	height:27px;
+	border:0px;
+	cursor:pointer;
+	}
+.bFacturar:hover {
+	background:transparent url(../images/iconos/facturarICON.png) no-repeat;
+	background-size: 125px 27px;
+	width:125px;
+	height:27px;
+	}
+
+.bLiquidar {
+	background:transparent url(../images/iconos/liquidarICON.png) no-repeat;
+	background-size: 125px 27px;
+	padding-top: 15px;
+	width:125px;
+	height:27px;
+	border:0px;
+	cursor:pointer;
+	}
+.bLiquidar:hover {
+	background:transparent url(../images/iconos/liquidarPICON.png) no-repeat;
+	background-size: 125px 27px;
+	width:125px;
+	height:27px;
+	}	
+
+.bReversar {
+	background:transparent url(../images/iconos/reversarPICON.png) no-repeat;
+	background-size: 125px 27px;
+	padding-top: 15px;
+	width:125px;
+	height:27px;
+	border:0px;
+	cursor:pointer;
+	}
+.bReversar:hover {
+	background:transparent url(../images/iconos/reversarICON.png) no-repeat;
+	background-size: 125px 27px;
+	width:125px;
+	height:27px;
+	}
+
+.bCambioConsumoEstimado {
+	background:transparent url(../images/botones/cambioConsumoEstimadoICON.png) no-repeat;
+	background-size: 120px 25px;
+	width:120px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	}
+	
+.bCambioCategoriaConsumidor {
+	background:transparent url(../images/botones/cambioCategoriaICON.png) no-repeat;
+	background-size: 120px 25px;
+	width:120px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	}	
+	
+.bAsignacionMedidor {
+	background:transparent url(../images/botones/asignacionMedidorICON.png) no-repeat;
+	background-size: 120px 25px;
+	width:120px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	}	
+	
+.bServicioAlcantarillado {
+	background:transparent url(../images/botones/servicioAlcantarilladoICON.png) no-repeat;
+	background-size: 120px 25px;
+	width:120px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	}	
+
+.bGuardarCatastro {
+	background:transparent url(../images/botones/guardarCICON.png) no-repeat;
+	background-size: 90px 25px;
+	width:90px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	}
+
+.bCancelarCatastro {
+	background:transparent url(../images/botones/cancelarCICON.png) no-repeat;
+	background-size: 90px 25px;
+	width:90px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	}	
+
+	
+	
+
+	
+.estiloRubro2{
+	background: #FFF;
+	font-family: verdana;
+	width: 280px;
+	border-style: solid;
+	border-color: rgb(147,206,222);
+	border-width: 1px;
+}
+.estiloValorRubro2{
+	background: #FFF;
+	font-family: verdana;
+	text-align: right;
+	width: 60px;
+	color: #000;
+	border-style: solid;
+	border-color: rgb(147,206,222);
+	border-width: 1px;
+}	
+	
+.tdBorder{
+	border-style: solid;
+	border-color: rgb(147,206,222);
+	border-width: 1px;
+	vertical-align: middle;
+}
+
+.estiloRubro{
+	background: #CEE3F6;
+	font-family: verdana;
+	text-align: left; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	width: 280px;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+.estiloValorRubro{
+	background: #CEE3F6;
+	font-family: verdana;
+	text-align: right; 
+	font-weight: normal;
+	vertical-align: middle;
+	color: #000;
+	width: 60px;
+	height: 10px;
+	border-style: none;
+	font-size:9px;
+	}
+div.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 60px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+div.divPopUpCambio{
+	background: url(../images/botones/frmDetalleFactura.png) no-repeat; 
+	background-size: 500px 330px;
+	font-family: verdana;
+	font-size: 16px;
+	margin: auto;
+	border-style: none;
+	width: 500px;
+	height: 330px;
+}
+
+div.divPopUpPago{
+	background: url(../images/botones/frmDetallePago.png) no-repeat; 
+	background-size: 420px 240px;
+	font-family: verdana;
+	font-size: 16px;
+	margin: auto;
+	border-style: none;
+	width: 420px;
+	height: 240px;
+}
+
+div.divPopUpNC{
+	background: url(../images/botones/frmDetalleNC.png) no-repeat; 
+	background-size: 420px 240px;
+	font-family: verdana;
+	font-size: 16px;
+	margin: auto;
+	border-style: none;
+	width: 420px;
+	height: 240px;
+}
+
+div.divPopUpConvenio{
+	background: url(../images/botones/frmConvenioPago.png) no-repeat; 
+	background-size: 700px 430px;
+	font-family: verdana;
+	font-size: 16px;
+	margin: auto;
+	border-style: none;
+	width: 700px;
+	height: 430px;
+}
+
+div.divPopUpSConvenio{
+	background: url(../images/botones/frmConvenioPago.png) no-repeat; 
+	background-size: 700px 430px;
+	font-family: verdana;
+	font-size: 16px;
+	margin: auto;
+	border-style: none;
+	width: 700px;
+	height: 430px;
+}
+
+div.divPopUpConvenioC{
+	background: url(../images/botones/frmConvenioPago.png) no-repeat; 
+	background-size: 880px 460px;
+	font-family: verdana;
+	font-size: 16px;
+	margin: auto;
+	border-style: none;
+	width: 880px;
+	height: 460px;
+}
+
+
+div.divPopUpReclamo{
+	background: url(../images/botones/frmReclamo.png) no-repeat; 
+	background-size: 700px 400px;
+	font-family: verdana;
+	font-size: 14px;
+	margin: auto;
+	border-style: none;
+	width: 700px;
+	height: 400px;
+}
+div.divPopUpSolicitud{
+	background: url(../images/botones/frmSolicitud.png) no-repeat; 
+	background-size: 830px 435px;
+	font-family: verdana;
+	top: 15px;
+	font-size: 14px;
+	margin: auto;
+	border-style: none;
+	width: 830px;
+	height: 435px;
+}
+div.divFacturacionExtraOrdinaria{
+	background: url(../images/botones/frmFacturacion.png) no-repeat; 
+	background-size: 830px 435px;
+	font-family: verdana;
+	font-size: 14px;
+	margin: auto;
+	border-style: none;
+	width: 830px;
+	height: 435px;
+}
+div.divPopUpServicios{
+	background: url(../images/botones/frmServicio.png) no-repeat; 
+	background-size: 425px 230px;
+	font-family: verdana;
+	font-size: 14px;
+	margin: auto;
+	border-style: none;
+	width: 425px;
+	height: 230px;
+}
+div.divContactoCliente{
+	background: url(../images/botones/frmContactoCliente.png) no-repeat; 
+	background-size: 420px 230px;
+	font-family: verdana;
+	font-size: 14px;
+	margin: auto;
+	border-style: none;
+	width: 420px;
+	height: 230px;
+}
+.bCerrarVentana{
+	background:transparent url(../images/botones/btn-Cerrar.png) no-repeat;
+	background-size: 20px 20px;
+	width:20px;
+	height:20px;
+	border:0px;
+	cursor:pointer;
+}
+.bLoadBotton{
+	background:transparent url(../images/botones/loadInformacion.png) no-repeat;
+	background-size: 20px 20px;
+	width:20px;
+	text-align: right;
+	height:20px;
+	border:0px;
+	cursor:pointer;
+}
+.bPrintBotton{
+	background:transparent url(../images/iconos/pdfICON.png) no-repeat;
+	background-size: 50px 50px;
+	width:50px;
+	text-align: right;
+	height:50px;
+	border:0px;
+	cursor:pointer;
+}	

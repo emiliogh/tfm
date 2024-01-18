@@ -1,0 +1,112 @@
+body {
+	font-family: Arial;
+	font-size: 14px;
+}
+.bgColor {
+	width: 330px;
+	height:330px;
+	background-color: #F9D735;
+}
+.bgColor label{
+	font-weight: bold;
+	color: #A0A0A0;
+}
+#targetLayer{
+	float:left;
+	border: 1px solid;
+    border-radius: 10px;
+	padding: 3px;
+	text-align:center;
+	line-height:100px;
+	font-weight: bold;
+	color: #C0C0C0;
+	background-color: #F0E8E0;
+	overflow:auto;
+}
+
+.btnSubmit {
+	background-color: #3FA849;
+	padding:2px;
+	border: #3FA849 1px solid;
+	color: #FFFFFF;
+}
+.inputFile {
+	padding: 0px 0px 0px 0px;
+}
+
+.bBusquedaImage{
+	background:transparent url(../images/botones/btn-Buscar.png) no-repeat;
+	background-size: 80px 20px;
+	width:80px;
+	height:20px;
+	border:0px;
+	cursor:pointer;
+}
+
+.bSubirImagen{
+	background:transparent url(../images/botones/btn-Subir.png) no-repeat;
+	background-size: 80px 20px;
+	width:80px;
+	height:20px;
+	border:0px;
+	cursor:pointer;
+}
+
+.bBusquedaImageH{
+	background:transparent url(../images/icons/nuevoRegistro.png) no-repeat;
+	background-size: 120px 30px;
+	width: 120px;
+	height:30px;
+	border:0px;
+	cursor:pointer;
+}
+
+.bEliminaImageH{
+	background:transparent url(../images/icons/eliminarRegistro.png) no-repeat;
+	background-size: 120px 30px;
+	width: 120px;
+	height:30px;
+	border:0px;
+	cursor:pointer;
+}
+
+.bVerificaFirmaH{
+	background:transparent url(../images/icons/verificarFirma.png) no-repeat;
+	background-size: 120px 30px;
+	width: 120px;
+	height:30px;
+	border:0px;
+	cursor:pointer;
+}
+
+.bVerificaVigenciaH{
+	background:transparent url(../images/icons/verificarVigencia.png) no-repeat;
+	background-size: 120px 30px;
+	width: 120px;
+	height:30px;
+	border:0px;
+	cursor:pointer;
+}
+
+.bGuardarImagen{
+	background:transparent url(../images/icons/btn-Guardar.png) no-repeat;
+	background-size: 88px 20px;
+	width:88px;
+	height:20px;
+	border:0px;
+	cursor:pointer;
+}
+
+.bAmpliarImagen{
+	background:transparent url(../images/icons/btn-Ampliar.png) no-repeat;
+	background-size: 80px 20px;
+	width:80px;
+	height:20px;
+	border:0px;
+	cursor:pointer;
+}
+.informacionImage{
+	font-family: Arial;
+	font-size: 9px;
+	color: #A4A4A4;
+}

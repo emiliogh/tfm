@@ -1,0 +1,67 @@
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-family: verdana;
+	font-size: 12px; 
+	}
+	
+.estilo1{
+	 width: 100px; 
+	 height: 25px; 
+	 font-weight: bold; 
+	 vertical-align: middle; 
+	 text-align: left;
+	}
+
+.estilo2{
+	 vertical-align: bottom; 
+	 text-align: left; 
+	 height: 25px;
+	 font-weight: bold; 
+	}
+
+.estilo3{
+	  font-family: verdana;
+	  font-weight: bold; 
+	  text-align: left; 
+	  vertical-align: bottom;
+	  background: rgb(147,206,222);
+	  background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%); /* FF3.6+ */
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(147,206,222,1)), 
+		          color-stop(41%,rgba(117,189,209,1)), color-stop(100%,rgba(73,165,191,1))); /* Chrome,Safari4+ */
+	  background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Chrome10+,Safari5.1+ */
+	  background: -o-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* Opera 11.10+ */
+	  background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* IE10+ */
+	  background: linear-gradient(to bottom, rgba(147,206,222,1) 0%,rgba(117,189,209,1) 41%,rgba(73,165,191,1) 100%); /* W3C */
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+	  color: #fff;
+	  height: 20px;
+	  border-style: none;
+	  font-size:12px;
+	}
+.estilo4{
+	  font-family: verdana;
+	  font-weight: bold; 
+	  text-align: left; 
+	  vertical-align: bottom;
+	  color: #0B2161;
+	  height: 20px;
+	  border-style: none;
+	  font-size:12px;
+	}
+
+.estilo5{
+	  width:100px; 
+	  font-family:verdana; 
+	  font-size:14px; 
+	  color:#fff; 
+	  text-align: center; 
+	  vertical-align: middle;
+}
+
+.estilo6{
+	  font-family: verdana;
+	  font-weight: bold; 
+	  text-align: left; 
+	  vertical-align: bottom;
+	  color: #3E437D;
+	  font-size:10px;
+	}
